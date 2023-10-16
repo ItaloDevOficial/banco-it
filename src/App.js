@@ -1,23 +1,39 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
+// import Header from './Componentes/Header';
+import SobreCartao from './Componentes/SobreCartao';
+import Celular from './Componentes/Celular';
+import Rodape from './Componentes/Rodape';
+import Home from './Componentes/Home';
+import Cartoes from './Componentes/Cartoes';
+import AbraConta from './Componentes/AbraConta';
+import SobreNos from './Componentes/SobreNos';
+import NavBar from './Componentes/NavBar';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div>
+      <Router>
+
+        {/* <Header /> */}
+        <NavBar />
+        <Routes>
+
+          <Route exact path='/' element={<Home />} />
+          <Route path='/Cartoes' element={<Cartoes />} />
+          <Route path='/SobreNos' element={<SobreNos />} />
+          <Route path='/AbraConta' element={<AbraConta />} />
+
+        </Routes>
+
+        <SobreCartao />
+        <Celular />
+        <Rodape />
+
+      </Router>
+
     </div>
   );
 }

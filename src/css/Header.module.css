@@ -1,0 +1,139 @@
+/* header {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Logo {
+    position: relative;
+    width: 10%;
+    text-align: center;
+}
+
+.It {
+    width: 100px;
+}
+
+nav {
+    position: relative;
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+
+}
+
+li {
+    color: #fff;
+    list-style-type: none;
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    letter-spacing: 2.5px;
+    cursor: pointer;
+}
+
+li:hover{
+    background-color: #00AFCE;
+    color: #000;
+}
+
+.ConecteSe {
+    position: relative;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+}
+
+.Login, .Cadastro{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #00AFCE;
+    background-color: #00AFCE;
+    color: #fff;
+    font-family: Fonte;
+    cursor: pointer;
+}
+
+.Login:hover{
+    background-color: #0092ac;
+    border: 1px solid #0092ac;
+}
+
+.Cadastro{
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #000;
+}
+
+.Cadastro:hover{
+    background-color: #00AFCE;
+    border: 1px solid #00AFCE;
+    color: #fff;
+}
+
+.Link{
+    text-decoration: none;
+    color: #fff;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .Login, .Cadastro{
+        display: none;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    .Caixa{
+        width: 40%;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    header {
+        height: auto;
+    }
+
+    .Logo {
+        display: none;
+    }
+
+    li {
+        width: 93%;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    li {
+        width: 83%;
+        text-align: center;
+        padding: 20px;
+    }
+} */

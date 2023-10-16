@@ -1,0 +1,106 @@
+.Home{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ImagemMoca{
+    position: relative;
+    width: 50%;
+}
+
+.Moca{
+    width: 900px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: -50px;
+}
+
+.Texto{
+    position: relative;
+    width: 50%;
+}
+
+.h1_texto{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 150px;
+    color: #00AFCE;
+}
+
+.h1_branco{
+    color: #fff;
+    font-size: 70px;
+}
+
+@media screen and (min-width: 701px) and (max-width: 1000px) {
+    .ImagemMoca{
+        width: 100%;
+        text-align: center;
+    }
+
+    .Texto{
+        width: 100%;
+    }
+
+    .Moca{
+        width: 700px;
+        height: 550px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 451px) and (max-width: 700px) {
+    .ImagemMoca{
+        width: 100%;
+        text-align: center;
+    }
+
+    .Texto{
+        width: 100%;
+    }
+
+    .h1_texto{
+        font-size: 40px;
+    }
+    
+    .h1_branco{
+        font-size: 50px;
+    }
+
+    .Moca{
+        width: 500px;
+        height: 350px;
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .ImagemMoca{
+        width: 100%;
+        text-align: center;
+        height: auto;
+    }
+
+    .Texto{
+        width: 100%;
+        height: auto;
+    }
+
+    .h1_texto{
+        font-size: 40px;
+    }
+    
+    .h1_branco{
+        font-size: 50px;
+    }
+
+    .Moca{
+        width: 400px;
+        height: 300px;
+        margin-left: 0;
+    }
+}

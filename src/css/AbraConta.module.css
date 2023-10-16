@@ -1,0 +1,128 @@
+.AbraConta {
+    position: relative;
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.h1_title{
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+}
+
+.Caixa {
+    position: relative;
+    width: 20%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    width: 150px;
+}
+
+.h1_icons {
+    color: #fff;
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+footer h1 {
+    width: 250px;
+    height: 450px;
+    background: #00AFCE;
+    transform: skew(-280rad);
+    margin: 0.5rem;
+    transition: 0.6s;
+}
+
+footer h1:hover {
+    scale: 1.05;
+    transition: 0.4s;
+    background: #00AFCE;
+    box-shadow: 8px 8px #0098b3;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+footer h1 img {
+    margin: 1.5rem;
+    width: 70%;
+    transform: skew(280rad);
+}
+
+.Botao {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Abra {
+    width: 50%;
+    height: 50px;
+    margin-top: 50px;
+    border-radius: 15px;
+    background-color: #00AFCE;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 2px;
+    border: 1px solid #00AFCE;
+    font-family: Fonte;
+    cursor: pointer;
+}
+
+.Abra:hover{
+    background-color: #00869e;
+    border: 1px solid #00869e;
+}
+
+@media screen and  (min-width: 701px) and (max-width: 1000px){
+    .Caixa {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .Caixa {
+        width: 100%;
+    }
+
+    .Abra {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    footer h1{
+        width: 200px;
+        height: 450px;
+    }
+
+    .icons {
+        width: 130px;
+    }
+
+    .Abra {
+        width: 90%;
+    }
+}

@@ -1,0 +1,96 @@
+.Celular {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.Texto_1{
+    position: relative;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.h1_Celular{
+    font-size: 70px;
+    color: #fff;
+    padding: 110px;
+}
+
+.Cel{
+    position: relative;
+    width: 50%;
+}
+
+.Telefone{
+    margin-top: 80px;
+    margin-left: -150px;
+    width: 790px;
+}
+
+@media screen and  (min-width: 701px) and (max-width: 1000px){
+    .Texto_1{
+        width: 100%;
+        height: 1000px;
+    }
+
+    .Cel{
+        width: 100%;
+        height: 950px;
+    }
+
+    .Telefone{
+        width: 680px;
+        margin-left: 15px;
+    }
+}
+
+@media screen and (min-width: 451px) and (max-width: 700px) {
+    .Texto_1{
+        width: 100%;
+        height: auto;
+    }
+
+    .Cel{
+        width: 100%;
+        height: auto;
+    }
+
+    .Telefone{
+        width: 500px;
+        margin-left: 10px;
+    }
+
+    .h1_Celular{
+        font-size: 50px;
+        padding: 145px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .Texto_1{
+        width: 100%;
+        height: 300px;
+    }
+
+    .Cel{
+        width: 100%;
+        height: auto;
+        background-size: 400px 250px;
+        margin-left: 50px;
+    }
+
+    .Telefone{
+        width: 450px;
+        margin-left: -100px;
+    }
+
+    .h1_Celular{
+        margin-left: -10px;
+        font-size: 40px;
+        text-align: center;
+    }
+}
