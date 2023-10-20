@@ -7,8 +7,9 @@ import Rodape from './Componentes/Rodape';
 import Home from './Componentes/Home';
 import Cartoes from './Componentes/Cartoes';
 import AbraConta from './Componentes/AbraConta';
-import SobreNos from './Componentes/SobreNos';
+// import SobreNos from './Componentes/SobreNos';
 import NavBar from './Componentes/NavBar';
+import SobreOBanco from './Componentes/SobreOBanco';
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
 
           <Route exact path='/' element={<Home />} />
           <Route path='/Cartoes' element={<Cartoes />} />
-          <Route path='/SobreNos' element={<SobreNos />} />
+          <Route path='/SobreOBanco' element={<SobreOBanco />} />
           <Route path='/AbraConta' element={<AbraConta />} />
 
         </Routes>

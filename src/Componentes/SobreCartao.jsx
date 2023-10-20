@@ -31,6 +31,10 @@ function SobreCartao() {
                     <img className={Style.CircuitoTamanhoD} src={CircuitoDir} alt="Circuito Direito" />
                 </div>
 
+                <div className={Style.Botao}>
+                <button className={Style.Abra}>Abra sua conta</button>
+                </div>
+
             </div>
 
         </section>

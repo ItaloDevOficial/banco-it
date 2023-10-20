@@ -35,6 +35,22 @@
     font-size: 70px;
 }
 
+@media screen and (min-width: 1900px){
+    .Moca{
+        width: 1000px;
+        height: 650px;
+        margin-left: 30px;
+    }
+
+    .h1_texto{
+        font-size: 60px;
+    }
+    
+    .h1_branco{
+        font-size: 70px;
+    }
+}
+
 @media screen and (min-width: 701px) and (max-width: 1000px) {
     .ImagemMoca{
         width: 100%;

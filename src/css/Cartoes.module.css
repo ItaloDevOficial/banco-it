@@ -109,6 +109,22 @@
     border: 1px solid #00869e;
 }
 
+@media screen and (min-width: 1900px){
+    .CartBack{
+        width: 900px;
+        margin-left: 150px;
+    }
+
+    .Beneficios{
+        font-size: 70px;
+        margin-left: 150px;
+    }
+
+    .Tamanho_Cartão{
+        width: 370px;
+    }
+}
+
 @media screen and  (min-width: 701px) and (max-width: 1000px){
     .Title_h1{
         width: 100%;

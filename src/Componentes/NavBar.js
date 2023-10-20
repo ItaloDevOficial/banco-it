@@ -23,7 +23,7 @@ function NavBar() {
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink exact to="/SobreNos" activeClassName="active" className="nav-links" onClick={handleClick}>
+                        <NavLink exact to="/SobreOBanco" activeClassName="active" className="nav-links" onClick={handleClick}>
                             Sobre Nós
                         </NavLink>
                     </li>

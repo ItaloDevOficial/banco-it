@@ -63,7 +63,7 @@ function Cartoes(){
                 </div>
 
                 <div className={Style.Botao}>
-                    <button className={Style.Abra}>Venha Conferir!</button>
+                    <button className={Style.Abra}>Venha Conferir</button>
                 </div>
 
             </div>
@@ -94,7 +94,7 @@ function Cartoes(){
                 </div>
 
                 <div className={Style.Botao}>
-                    <button className={Style.Abra}>Venha Conferir!</button>
+                    <button className={Style.Abra}>Venha Conferir</button>
                 </div>
 
             </div>

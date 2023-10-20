@@ -74,6 +74,73 @@ h3{
     height: 500px;
 }
 
+.Botao {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Abra {
+    width: 50%;
+    height: 50px;
+    margin-top: 50px;
+    border-radius: 15px;
+    background-color: #00AFCE;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 2px;
+    border: 1px solid #00AFCE;
+    font-family: Fonte;
+    cursor: pointer;
+}
+
+.Abra:hover{
+    background-color: #00869e;
+    border: 1px solid #00869e;
+}
+
+@media screen and (min-width: 1900px){
+    .CircuitoTamanhoD{
+        margin-left: 0;
+    }
+
+    .CartaoTamanho{
+        margin-left: 150px;
+        width: 800px;
+    }
+
+    .CircuitoTamanho{
+        width: 850px;
+    }
+
+    .Baixo{
+        margin-top: 100px;
+    }
+
+    h3{
+        font-size: 60px;
+    }
+
+    .p_Cartao{
+        font-size: 45px;
+        text-align: center;
+        padding: 80px;
+    }
+
+    .CircuitoTamanhoD{
+        width: 850px;
+        margin-top: 150px;
+        float: right;
+    }
+
+    .Botao{
+        margin-top: 50px;
+    }
+}
+
 @media screen and  (min-width: 701px) and (max-width: 1000px) {
     .CircuitoEsq{
         width: 100%;
@@ -195,5 +262,9 @@ h3{
         font-size: 25px;
         text-align: center;
         padding: 80px;
+    }
+
+    .Abra {
+        width: 90%;
     }
 }

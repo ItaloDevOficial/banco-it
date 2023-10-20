@@ -11,7 +11,15 @@
     position: relative;
     width: 50%;
     display: flex;
+    height: auto;
+    flex-direction: column;
     align-items: center;
+}
+
+.Baixar{
+    width: 150px;
+    margin-left: -300px;
+    cursor: pointer;
 }
 
 .h1_Celular{
@@ -29,6 +37,20 @@
     margin-top: 80px;
     margin-left: -150px;
     width: 790px;
+}
+
+@media screen and (min-width: 1900px){
+    .Telefone{
+        width: 950px;
+    }
+
+    .Baixar{
+        width: 300px;
+    }
+
+    .h1_Celular{
+        font-size: 80px;
+    }
 }
 
 @media screen and  (min-width: 701px) and (max-width: 1000px){
@@ -86,11 +108,18 @@
     .Telefone{
         width: 450px;
         margin-left: -100px;
+        margin-top: 250px;
     }
 
     .h1_Celular{
         margin-left: -10px;
         font-size: 40px;
         text-align: center;
+    }
+
+    .Baixar{
+        width: 150px;
+        margin-left: 0;
+        margin-top: -50px;
     }
 }

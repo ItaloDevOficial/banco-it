@@ -1,0 +1,58 @@
+.SobreAlgo{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.Carts{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.Tamanho_Cart{
+    height: 500px;
+}
+
+.H2_carts{
+    color: #000;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.6rem;
+}
+
+.P_carts{
+    color: #000;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.Cart{
+    border-radius: 15px;
+    transition: 0.5s;
+    margin-bottom: 15px;
+}
+
+.Cart:hover{
+    scale: 1.05;
+    transition: 0.5s;
+}
+
+.Visão{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.História{
+    position: relative;
+    width: 100%;
+}
